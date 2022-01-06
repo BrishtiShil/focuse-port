@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.green-color{
+    color: green;
+}
+.border-width{
+    border-left: 6px solid blueviolet;
+}
+.section{
+    display: flex;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 50%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(gray, tomato);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.mission-item{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    border-image: 2px;
+    box-shadow: 10px 10px 40px gray;
+}
