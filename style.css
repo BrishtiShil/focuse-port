@@ -8,6 +8,10 @@ h2{
     font-size: 40px;
     text-align: center;
 }
+h3{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
 .green-color{
     color: green;
 }
@@ -16,6 +20,7 @@ h2{
 }
 .section{
     display: flex;
+    margin-bottom: 150px;
 }
 .flexible-container{
     display: flex;
@@ -35,11 +40,18 @@ h2{
     border-radius: 5px;
 }
 .mission-item{
-    width: 35%;
+    width: 20%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 0%;
     padding: 10px;
     border-radius: 20px;
-    border-image: 2px;
     box-shadow: 10px 10px 40px gray;
+    border-image: 2px;
+}
+.mission-item img{
+    width: 50%;
+}
+footer{
+    text-align: center;
+    background-color: lightgreen;
 }
